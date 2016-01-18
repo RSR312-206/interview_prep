@@ -22,22 +22,6 @@ BH.prototype.parent = function(index) {
 //the index becomes the temp
 //then recursively call the upheap method.
 
-// BH.prototype = function(index) {
-//   var parent = this.parent(index);
-//   var temp;
-
-//   if parent == 0 {
-//     return;
-//   }
-//   if this.node[index] <= this.node[parent] {
-//     return;
-//   }
-//   temp = this.node[parent];
-//   this.node[parent] = this.node[index]
-//   this.node[index] = temp;
-//   this.upheap(parent);
-// }
-
 BH.prototype.upHeap = function(index) {
   const parent = this.parent(index);
   let temp;
