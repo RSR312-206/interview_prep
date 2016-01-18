@@ -1,0 +1,14 @@
+instance method. method on the class
+instance variable. variable on the method
+
+Use array rectangular structure for arrays
+
+--------------------------
+|  |  |  |  |  |  |  |  |
+--------------------------
+|  |  |  |  |  |  |  |  |
+--------------------------
+
+be sure to engage interviewer with your thought process.
+improve variable names.
+time and space:

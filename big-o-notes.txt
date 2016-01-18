@@ -1,0 +1,61 @@
+BIG-O notation comes from mathmatics. It's a way to measure the performance or scalability of
+an algorithm.
+
+http://stackoverflow.com/questions/487258/plain-english-explanation-of-big-o
+
+why scalability?
+Because in the smallest form all algorithms preform basically the same, but then they change
+as the number of operations and elements.
+Elements- the amount of data - increase by a factor of 10.
+Operations- the number of operations per algorithm. Increases by a factor of 100.
+
+
+In math- big theta or big omega or big o
+what is the best case
+what is the worst case
+what is the average case
+
+Big-O in CS is a way of combining those 3 cases.
+
+Cheet Sheet:
+http://bigocheatsheet.com/
+
+* Programming language affects speed. Each language has their own performance charateristics.
+* Ruby- everything is an object, so it has a larger level of abstration. Make it slower.
+* C#- require more explicit memory allocation is required.
+
+* Compiler Optimization: in c# it's statically typed and allows the process that interperet
+that's language to make assumptions about your code faster.
+Not all operations for comsuming memory on the machine are the same.
+
+* Why ruby vs. c#? The eternal tradeoff of developer speed vs. internal speed.
+
+* DB calls and processing the view tend to be the biggest processes in terms of time and performance.
+
+JS Performance:
+
+jsperf.com
+
+Front end Performance:
+building templates saves on performance
+string concatination is expensive because they are shot lived and then must be garbage collected.
+Garbage collections tops the process in order to clean up the garbage and then resume the program.
+Each language has rules set abuot when garbage collection is invoked.
+
+Logorithms:
+
+the inverse of exponents.
+
+O(log(n)) = the 'divide and conquer style algorithms' best bang for buck when adding elements. 1 divide and conquer
+O(1) - elements and operations don't matter. it's always performant.
+O(nlog(n)) n divide and conquers. Divide and conquer is done n times. Nested binary searches, for example.
+O(n^2) - nested loops.
+
+
+
+
+
+
+
+
+
