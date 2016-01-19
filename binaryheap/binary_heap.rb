@@ -1,7 +1,7 @@
 # upheap --> insert
 # downheap --> extract
 
-class BH
+class BinaryHeap
 
   def initialize
     @nodes = []
@@ -84,5 +84,12 @@ class BH
     down_heap(0)
     return value
   end
+
+  private :parent, :up_heap, :down_heap, :left, :right
+
 end
+
+bh = BinaryHeap.new()
+bh.insert(4)
+bh.extract(10)
 
