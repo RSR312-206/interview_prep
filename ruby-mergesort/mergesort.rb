@@ -23,8 +23,3 @@
       [right_arr.first] + merge(left_arr, right_arr[1..right_arr.length])
     end
   end
-
-
-p merge_sort([1,2,12,900,50, 4, 1, 9, 4, 7, 5, 6666, -1000])
-p merge_sort([34,54,1])
-p merge_sort([0,0])
