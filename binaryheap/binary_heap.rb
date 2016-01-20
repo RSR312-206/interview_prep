@@ -1,5 +1,7 @@
 # upheap --> insert
 # downheap --> extract
+require 'spec-helper'
+require_relative './binary_heap_spec'
 
 class BinaryHeap
 
@@ -20,7 +22,7 @@ class BinaryHeap
       return
     end
 
-    if @nodes[parent] <= @nodes[index]
+    if @nodes[parent] >= @nodes[index]
       return
     end
 
