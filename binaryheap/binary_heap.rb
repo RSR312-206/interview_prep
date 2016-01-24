@@ -1,5 +1,6 @@
 # upheap --> insert
 # downheap --> extract
+
 require 'spec-helper'
 require_relative './binary_heap_spec'
 
@@ -26,8 +27,8 @@ class BinaryHeap
       return
     end
 
-    temp = parent
-    parent = @nodes[index]
+    temp = @nodes[parent]
+    @ndoes[parent] = @nodes[index]
     @nodes[index] = temp
     upHeap(parent)
   end

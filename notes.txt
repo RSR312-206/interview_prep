@@ -12,3 +12,17 @@ Use array rectangular structure for arrays
 be sure to engage interviewer with your thought process.
 improve variable names.
 time and space:
+
+
+Stack: Last In First Out ( like the undo on your computer. )
+
+Queue: First In First Out (  )
+
+
+queue
+-----
+enqueue | list.push
+dequeue | list.shift
+
+reverse polish notation O(n)
+

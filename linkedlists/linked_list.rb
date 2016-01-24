@@ -38,6 +38,7 @@ class LinkedList
   end
 
    def unshift(value)
+    #NEW VALUE ADDED AT HEAD, HEAD IS NOW NEXT_NDODE
     #take the current head and
     #create a new node with the value arg.
     #then put the old head in the next position
@@ -49,6 +50,7 @@ class LinkedList
 
 
   def shift(value)
+    #HEAD IS REMOVED, LL SHIFTS TO THE LEFT
     #shift the head out of the linked list
     #and assign the next node to the head.
     #take the second node and place it at the
@@ -97,22 +99,18 @@ class LinkedList
     end
   end
 
-  def go_to_index(index, return_prev = false)
+  def go_to_index(index)
     node = @head
-
     #if index is greater than or equal to the lengh of thell,
     # less than 0, or the node value is nil:
     if index >= @length || index < 0 || node.nil?
       nil
     else
-      prev = nil
-      i = 0
-      while i < index
-        prev = node
+      index.times do
         node = node.next_node
-        i += 1
+        p node
       end
-      return_prev ? prev : node
+      p node
     end
   end
 
