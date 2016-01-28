@@ -16,8 +16,7 @@ time and space:
 
 Stack: Last In First Out ( like the undo on your computer. )
 
-Queue: First In First Out (  )
-
+Queue: First In First Out
 
 queue
 -----

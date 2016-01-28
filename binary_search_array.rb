@@ -15,5 +15,3 @@ def binary_search(arr, value)
     p "not found"
   end
 end
-
-binary_search([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], 8)
